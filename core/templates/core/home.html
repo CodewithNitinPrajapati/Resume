@@ -1,0 +1,27 @@
+{% extends 'core/base.html' %}
+{% load static %}
+{% block content %}
+<div class="text-center">
+  <img src="{% static 'images/nitinpic.jpg' %}" alt="profile pic.jpg" class="img-fluid img-thumbnail mt-5" width="150px"height="150px" >
+</div>
+
+<div class="text-white mt-5 text-justify">
+  <h1 class="font-weight-bold px-5 " style="font-family: 'Satisfy' ,cursive;">Hello,</h1>
+      <div>
+        <p style="text-indent:105px;" class="text-white lh-lg px-5 mx-5"> I am
+          <i><b class="text-warning">Nitin Kumar Prajapati
+           </b></i>having 1 year of full stack web devlopment experince for global businesses , I offer  the technical exprtise you are seeking for your web developer position.
+        </p>
+
+        <p class="text-white lh-lg px-5 mx-5">Year ago I’ve created small kickass resume which was at Linkdin and had  30k visitors in one night! Thanks to that I was able to do internship in
+          <i><b class="text-warning">TEKSystem in 2020 </b></i> and at Shopify this year! Perfect experience. I’m very into web technologies and love intersection of programming, design and business. Love what Github started doing for students and so much effort they are putting into it. Don’t hesitate to shoot me an email!
+        </p>
+      </div>
+
+  <div class="text-center mb-5 mt-4">
+    <a href="" class="btn btn-outline-warning me-5 ms-5 ">Hire me</a> <!-- me & ms for margin  -->
+    <a href="" class="btn btn-outline-info me-5">Contact</a>
+  </div>
+</div>
+
+{% endblock content %}
